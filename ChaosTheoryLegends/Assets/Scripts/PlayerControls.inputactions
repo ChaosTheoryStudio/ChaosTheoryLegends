@@ -15,6 +15,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "Look",
+                    "type": "Value",
+                    "id": "a052a12d-3080-4352-bd6b-fccfebff6c5a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
                     "name": "Interact",
                     "type": "Button",
                     "id": "5c949910-315b-4670-b4e7-9a461151ba57",
@@ -88,6 +97,17 @@
                     "processors": "",
                     "groups": "Keyboard",
                     "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dcfb2a90-edf2-458f-ba47-b27f91268158",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Keyboard",
+                    "action": "Look",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
