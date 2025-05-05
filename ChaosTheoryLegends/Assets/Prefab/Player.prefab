@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 3304088936277812267}
   - component: {fileID: 6898114824917286803}
   - component: {fileID: 4504030338099568192}
+  - component: {fileID: 314703738353713688}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -260,6 +261,22 @@ MonoBehaviour:
   mouseYSensitivity: 100
   playerObjectTransform: {fileID: 715531776860912438}
   playerCamera: {fileID: 3293302498827879454}
+--- !u!114 &314703738353713688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1827439846980570173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87dd1b707c6f494c88b0e747970197c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Rigidbody: {fileID: 6306779460953561704}
+  Bullet: {fileID: 0}
+  BulletsParent: {fileID: 7782498983969494870}
+  PlayerCamera: {fileID: 0}
 --- !u!1 &5493168995951771491
 GameObject:
   m_ObjectHideFlags: 0
