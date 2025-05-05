@@ -19,7 +19,6 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnInteract(InputAction.CallbackContext context)
     {
-        
     }
 
     private void FixedUpdate()
