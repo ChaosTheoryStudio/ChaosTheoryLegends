@@ -17,5 +17,6 @@ public class BulletHandler : MonoBehaviour
         Vector2 realPos = PlayerCamera.ScreenToWorldPoint(Mouse.current.position.ReadValue());
         GameObject obj = Instantiate(Bullet, BulletsParent);
         obj.transform.position = realPos;
+        obj.transform.up = new Vector2(realPos.x - PlayerCamera.transform.position.x, realPos.y - PlayerCamera.transform.position.y);
     }
 }
